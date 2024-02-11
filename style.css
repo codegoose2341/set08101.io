@@ -7,3 +7,17 @@ h1 {
 p {
     color:azure ;
 }
+.button-crow {
+    background: blue;
+    height: 20px;
+    width: 40px;
+    border: none;
+    outline: none;
+}
+.button-coffee {
+    background: blue;
+    height: 20px;
+    width: 40px;
+    border: none;
+    outline: none;
+}
