@@ -24,14 +24,17 @@ body {
     padding: 10px 0;
     position: fixed;
     transition: top 0.3s;
+    text-align: center;
   }
   #navbar a {
     text-decoration: none;
     color: #fff;
     padding: 10px 20px;
+    text-align: center;
   }
   #navbar a:hover {
     background-color: #444;
+    text-align: center;
   }
   section {
     padding: 20px;
