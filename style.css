@@ -20,13 +20,23 @@ body {
   h2 {
     text-align: center;
   }
-  #navbar {
+  #navbar { /*https://codepen.io/oscar-jite/pen/oNGraoJ */
     background-color: #222;
-    text-align: center;
-    padding: 10px 0;
+    top: 0;
+    justify-content: space-around;
+    alight-items: center;
+    height: 50px;
+    width: 100%;
     position: fixed;
+    z-index: 1;
+    background: #222;
+    box-shadow: 0px 1px 2px rgba(210,88,241,0.5), 
+              0px 2px 4px rgba(210,88,241,0.5), 
+              0px 4px 8px rgba(210,88,241,0.5), 
+              0px 8px 16px rgba(210,88,241,0.5);
     transition: top 0.3s;
     text-align: center;
+
   }
   #navbar a {
     text-decoration: none;
@@ -56,7 +66,4 @@ body {
     max-width: 100%;
     height: auto;
     display: block;
-  }
-  #about {
-    flex:auto;
   }
