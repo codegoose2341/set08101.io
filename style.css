@@ -28,13 +28,13 @@ body {
               0px 4px 8px rgba(210,88,241,0.5), 
               0px 8px 16px rgba(210,88,241,0.5);
     text-align: center;
-    padding:1px;
+    padding: 20px;
 
   }
   #navbar a {
     text-decoration: none;
     color: #fff;
-    padding: 10px 20px;
+    padding: 20px;
     text-align: center;
   }
   #navbar a:hover {
