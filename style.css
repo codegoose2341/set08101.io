@@ -19,7 +19,7 @@ body {
   #navbar { /*https://codepen.io/oscar-jite/pen/oNGraoJ */
     top: 0;
     align-items: center;
-    height: 60px;
+    height: 20px;
     width: 100%;
     position: fixed;
     z-index: 1;
