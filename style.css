@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 20%, rgba(121,9,118,1) 56%, rgba(255,0,232,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 20%, rgba(121,9,118,1) 56%, rgb(202, 18, 187) 100%);
     text-align:center;
   }
   header{
