@@ -23,7 +23,6 @@ body {
   #navbar { /*https://codepen.io/oscar-jite/pen/oNGraoJ */
     background-color: #222;
     top: 20px;
-    justify-content: space-around;
     align-items: center;
     height: 50px;
     width: 100%;
@@ -34,7 +33,6 @@ body {
               0px 2px 4px rgba(210,88,241,0.5), 
               0px 4px 8px rgba(210,88,241,0.5), 
               0px 8px 16px rgba(210,88,241,0.5);
-    transition: top 0.3s;
     text-align: center;
 
   }
