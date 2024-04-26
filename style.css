@@ -3,15 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(35deg, rgba(2,0,36,1) 0%, rgba(121,9,118,1) 56%, rgba(255,0,232,1) 100%);
-    animation: gradient 15s ease infinite;
-    color: #fff;
     text-align:center;
-  }
-  header {
-    background-color: #45088a;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
   }
   h1 {
     margin: 0;
@@ -21,9 +13,9 @@ body {
   }
   #navbar { /*https://codepen.io/oscar-jite/pen/oNGraoJ */
     background-color: #222;
-    top: 20px;
+    top: 0;
     align-items: center;
-    height: 50px;
+    height: 60px;
     width: 100%;
     position: fixed;
     z-index: 1;
