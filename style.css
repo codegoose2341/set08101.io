@@ -5,6 +5,10 @@ body {
     background: linear-gradient(35deg, rgba(2,0,36,1) 0%, rgba(121,9,118,1) 56%, rgba(255,0,232,1) 100%);
     text-align:center;
   }
+  header{
+    height:60px;
+    width:100%;
+  }
   h1 {
     margin: 0;
   }
@@ -12,7 +16,7 @@ body {
     text-align: center;
   }
   #navbar { /*https://codepen.io/oscar-jite/pen/oNGraoJ */
-    top: 5;
+    top: 0;
     align-items: center;
     height: 60px;
     width: 100%;
@@ -24,18 +28,17 @@ body {
               0px 4px 8px rgba(210,88,241,0.5), 
               0px 8px 16px rgba(210,88,241,0.5);
     text-align: center;
+    padding:1px;
 
   }
   #navbar a {
     text-decoration: none;
-    top: 5;
     color: #fff;
     padding: 10px 20px;
     text-align: center;
   }
   #navbar a:hover {
     background-color: #444;
-    top: 5;
     text-align: center;
   }
   section {
