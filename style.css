@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #111;
+    background-color: #01000f;
     color: #fff;
     text-align:center;
   }
@@ -54,4 +54,7 @@ body {
     max-width: 100%;
     height: auto;
     display: block;
+  }
+  #about {
+    flex:auto;
   }
