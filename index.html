@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
+  <head> <!-- Basic set up for language compatability and application compatability. -->
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Coffee</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body style="text-align:center;">
-
+  <body>
     <header>
       <h1>Welcome to my website about coffee.</h1>
     </header>
-    <nav>
+    <nav id="navbar"> <!-- A hiding nav bar so one can navigate all the sections -->
       <a href="#about">About</a>
       <a href="#types">Types</a>
       <a href="#history">History</a>
@@ -24,7 +23,7 @@
       <a href="#macchiato">Macchiato</a>
       <a href="#mocha">Mocha</a>
     </nav>
-    <section id="about">
+    <section id="about"> <!-- An about coffee section to just explain what it is. -->
       <h2>Well what is coffee?</h2>
         <p>Coffee is a very old drink that has been consumed for centuries, It can be very bitter if not made correctly but
         when made right it can be very smooth and lovely tasting.</p>
@@ -35,7 +34,7 @@
         <img src="images/Spinning earth.gif" alt="Spinning Earth">
     </section>
 
-    <section id="types">
+    <section id="types"> <!-- A long-ish list of different kinds of coffee and how they are made   -->
       <h2>Types of Coffee</h2>
       <p>There are so many types of coffee! From all over the world coffee is made and sold with different flavours and methods of creating coffee from beans.</p>
       <h3>The main kinds people know.</h3>
@@ -68,38 +67,38 @@
          Coffee was first said to be discovered in 850 AD which is 1,173 years ago.. to put that into perspective the USA is only 248 years old.</p>
     </section>
 
-    <section id="espresso">
+    <section id="espresso"> <!-- Individual section about one of the common coffees including a funny edited image. -->
       <h3>Espresso!</h3>
       <p>The train to coffee town has arrived!</p>
       <img src="images/The polar Espresso.png" alt="The polar Espresso">
 
     </section>
-    <section id="americano">
+    <section id="americano"> <!-- Individual section about one of the common coffees including a funny edited image. -->
       <h3>Americano!</h3>
       <p>The united states of Americano... mmh my favorite country.</p>
       <img src="images/The Americano Flag.png" alt="The Americano Flag">
 
     </section>
-    <section id="cappuccino">
+    <section id="cappuccino"> <!-- Individual section about one of the common coffees including a funny edited image. -->
       <h3>Cappuccino!</h3>
       <p>Here to save us from the tea drinkers!</p>
       <img src="images/Captain Cappuccino.png" alt="Captain Cappuccino">
 
     </section>
-    <section id="latte">
+    <section id="latte"> <!-- Individual section about one of the common coffees including a funny edited image. -->
       <h3>Latte!</h3>
       <p>Or should i say "Flatte"</p>
       <P>A warm coffee to stop us putting on the heating.</P>
       <img src="images/Flatte.png" alt="Flatte">
 
     </section>
-    <section id="macchiato">
+    <section id="macchiato"> <!-- Individual section about one of the common coffees including a funny edited image. -->
       <h3>Macchiato!</h3>
       <p>The kind of future I want!</p>
       <img  src="images/Ex_macchiato.png" alt="Ex_Macchiato">
 
     </section>
-    <section id="mocha">
+    <section id="mocha"> <!-- Individual section about one of the common coffees including a funny edited image. -->
       <h3>Mocha!</h3>
       <p>Coffee goes great with exams.</p>
       <img src="images/Mocha tests.png" alt="Mocha tests">
@@ -108,6 +107,18 @@
       <p>All images used are for parody and fall under fair use.</p>
     </footer>
 
-    <script></script>
+    <script>
+      var prevScrollpos = window.pageYOffset; //Script found on w3schools to make a hiding nav bar. 
+      //https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+          prevScrollpos = currentScrollPos;
+      } 
+    </script>
   </body>
 </html>

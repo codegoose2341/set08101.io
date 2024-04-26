@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #111;
     color: #fff;
+    text-align:center;
   }
   header {
     background-color: #45088a;
@@ -17,18 +18,19 @@ body {
   h2 {
     text-align: center;
   }
-  nav {
+  #navbar {
     background-color: #222;
     text-align: center;
     padding: 10px 0;
     position: fixed;
+    transition: top 0.3s;
   }
-  nav a {
+  #navbar a {
     text-decoration: none;
     color: #fff;
     padding: 10px 20px;
   }
-  nav a:hover {
+  #navbar a:hover {
     background-color: #444;
   }
   section {
